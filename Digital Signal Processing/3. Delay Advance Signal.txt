@@ -1,0 +1,6 @@
+n = -4 : 4;
+x = [0,2,5,-2,1,2,3,4,0];
+
+subplot(2,2,1);stem(n,x);title('Original Signal');grid
+subplot(2,2,2);stem(n+2,x);title('Delay Signal');grid
+subplot(2,2,3);stem(n-2,x);title('Advance Signal');grid

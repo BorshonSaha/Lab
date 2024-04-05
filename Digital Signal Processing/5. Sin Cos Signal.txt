@@ -1,0 +1,12 @@
+f = 1;
+t = 0:0.001:1;
+x = sin(2 * pi * f * t);
+y = cos(2 * pi * f * t);
+
+subplot(2,1,1),plot(t,x),title('Sine Wave');
+xlabel('e');ylabel('Amplitude');
+grid;
+
+subplot(2,1,2),plot(t,y),title('Cos Wave');
+xlabel('e');ylabel('Amplitude');
+grid;

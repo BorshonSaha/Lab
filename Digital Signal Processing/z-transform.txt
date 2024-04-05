@@ -1,0 +1,3 @@
+ztrans() ei function diye korte hobe
+etar correct code ta amr kase nai, search it
+g3 group z-transform e bash khaise!!!

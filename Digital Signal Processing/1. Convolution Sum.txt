@@ -1,0 +1,8 @@
+x = input('Enter first sequence : ');
+h = input('Enter second sequence : ');
+y = conv(x,h);
+
+subplot(2,2,1);stem(x);xlabel('a');ylabel('Input sequence');grid;
+subplot(2,2,2);stem(h);xlabel('b');ylabel('Impluse sequence');grid;
+subplot(2,2,3);stem(y);xlabel('c');ylabel('Output sequence');grid;
+title('Convolution between two sequences');

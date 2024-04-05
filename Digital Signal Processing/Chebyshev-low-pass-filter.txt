@@ -1,0 +1,8 @@
+wp = 40/500;
+ws = 150/500;
+[n,wn] = cheb2ord(wp,ws,3,60);
+n = 4;
+wn = 0.0800;
+[b,a] = cheby2(n,3,wn);
+freqz(b,a);
+title('chebyshev low pass filter');

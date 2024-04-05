@@ -1,0 +1,17 @@
+t = 0:0.005:4*pi;
+
+x = sin(t) + cos(t);
+subplot(2,2,1);plot(t,x);xlabel('t');ylabel('Amplitude');grid;
+title('Input signal with t = t');
+
+y = sin(-t) + cos(-t);
+subplot(2,2,2);plot(t,y);xlabel('t');ylabel('Amplitude');grid;
+title('Input signal with t = -t');
+
+z = x + y;
+subplot(2,2,3);plot(t,z/2);xlabel('t');ylabel('Amplitude');grid;
+title('Even signal');
+
+p = x - y;
+subplot(2,2,4);plot(t,p/2);xlabel('t');ylabel('Amplitude');grid;
+title('Odd signal');

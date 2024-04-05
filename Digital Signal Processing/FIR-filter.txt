@@ -1,0 +1,6 @@
+N = 64;
+wvtool(blackman(N));
+wvtool(hamming(N));
+wvtool(hann(N));
+wvtool(gausswin(N));
+wvtool(blackman(N),hamming(N), hann(N),gausswin(N));

@@ -1,0 +1,4 @@
+x = [1,2,3,4];
+y = xcorr(x,x);
+subplot(2,1,1);stem(x);title('Original sequence');
+subplot(2,1,2);stem(y);title('Auto corelation of sequence');

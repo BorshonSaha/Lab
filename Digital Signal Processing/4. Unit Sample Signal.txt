@@ -1,0 +1,5 @@
+n = -3:3;
+x = [n==0];
+subplot(1,1,1);stem(n,x);
+xlabel('n');ylabel('x(n)')
+title('Unit Sample Signal')

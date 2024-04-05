@@ -1,0 +1,5 @@
+x = input('Enter the length of ramp sequence: ');
+t = 0:x;
+subplot(1,1,1);stem(t,t);
+xlabel('c');ylabel('Amplitude')
+title('Ramp Sequence')
